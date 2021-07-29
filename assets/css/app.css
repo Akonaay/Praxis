@@ -3,6 +3,36 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.call-btn {
+    padding: 8px 50px;
+    font-size: 20px;
+    text-decoration: none !important;
+    background-color: #6baeec;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.call-btn:hover {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mt-longer {
+    margin-top: 50px !important;
+}
+
+.navbar-brand span {
+    font-weight: 500;
+}
+
+.title-large {
+    font-size: 30px;
+    font-weight: 700;
+    border-left: #2a2f2f 5px solid;
+    border-radius: 5px 5px;
+    padding-left: 5px;
+}
+
 /* Slider  */
 
 .w3l-banner-slider-main {
@@ -296,4 +326,189 @@ body {
     width: 20%;
     padding: 10px;
     margin-top: 9%;
+}
+
+/* Featured project */
+
+.featured-project span {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.featured-project h4 {
+    font-size: 18px;
+}
+
+.btn-style {
+    padding: 12px 35px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+    border-radius: 6px !important;
+}
+
+.transparent-btn {
+    background: rgba(77, 89, 116, 0.87);
+}
+
+/* Testimonials */
+
+.w3l-clients .testi-des {
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.w3l-clients blockquote q {
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+.w3l-clients a.comment-img {
+    left: 0px;
+    top: 0px;
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.w3l-clients blockquote q::before {
+    font-size: 50px;
+    color: var(--primary-color);
+    display: block;
+    font-family: initial;
+}
+
+.w3l-clients.w3l-test blockquote q::before {
+    font-size: 50px;
+    color: var(--primary-color);
+    display: inline-block;
+    font-family: initial;
+    margin-right: 10px;
+}
+
+.w3l-clients .test-img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: var(--bg-color);
+    border-radius: 50%;
+}
+
+.w3l-clients .testimonial img {
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.w3l-clients .testimonial .peopl {
+    margin: 0;
+    text-align: left;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.w3l-clients .testimonial .peopl h3, .w3l-clients .testimonial .people-info h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.w3l-clients p.indentity {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+@media (max-width: 375px) {
+    .w3l-clients blockquote q {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+/* Call for action  */
+
+h2.title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.breadcrumbs-custom-path li a {
+    color: #fff;
+    opacity: .6;
+}
+
+.breadcrumbs-custom-path li a:hover {
+    /* color: ; */
+}
+
+.breadcrumbs-custom-path li span.fa {
+    font-size: 12px;
+    vertical-align: 2px;
+}
+
+.breadcrumb-bg-contact {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../images/slide4.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Footer  */
+
+.footer-0 {
+    padding: 40px;
+    z-index: 10;
+    position: relative;
+    background: #636363;
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);
+    background: linear-gradient(to right, #a2ab58, #636363);
+}
+
+/* .hr {
+    border-bottom: #03cce6 1px solid;
+} */
+
+.copyright {
+    color: rgb(243, 238, 238);
+    font-size: 12px;
+    margin: 10px;
+}
+
+address {
+    color: #fff;
+    padding-top: 10px;
 }
