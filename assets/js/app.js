@@ -2,6 +2,7 @@
     $("#owl-agency").owlCarousel({
       loop: true,
       nav: false,
+      autoplay: true,
       margin: 50,
       responsiveClass: true,
       responsive: {
