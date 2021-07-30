@@ -36,14 +36,21 @@ body {
     padding: 8px 50px;
     font-size: 20px;
     text-decoration: none !important;
-    background-color: #6baeec;
+    /* background-color: #6baeec; */
     color: #fff;
     border-radius: 30px;
+    background: #6A9113;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141517, #6A9113);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141517, #6A9113);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .call-btn:hover {
     font-weight: 600;
     font-size: 20px;
+    color: #fff;
 }
 
 .mt-longer {
@@ -367,7 +374,7 @@ body {
 
 .btn-style {
     padding: 12px 35px;
-    color: #fff;
+    color: rgb(10, 10, 10);
     background: #d4ec21 !important;
     border: none !important;
     font-size: 18px;
