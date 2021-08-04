@@ -521,6 +521,38 @@ h2.title {
     background-attachment: fixed;
 }
 
+.breadcrumb-bg-about {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../images/slide5.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breadcrumb-bg-service {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../images/slide6.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breadcrumb-bg-news {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../images/slide3.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.breadcrumb-bg-contact2 {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.7)), url(../images/slide2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /* Footer  */
 
 .footer-0 {
@@ -598,6 +630,15 @@ h2.title {
     font-weight: 600;
     position: relative;
     color: #fff;
+}
+
+.footer-title-29 {
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    position: relative;
+    color: rgb(35, 32, 37);
 }
 
 .w3l-footer-29-main ul li a {
@@ -1180,3 +1221,63 @@ h2.title {
 }
 
 /* Service Page  */
+
+/* Contact Page  */
+
+.contact-info a {
+    text-decoration: none;
+}
+
+.contact-info-icons a {
+    margin-right: 10px;
+    color: #161411;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: rgb(241, 200, 125);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.contact-info-icons a:hover {
+    background: #f79d00;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.contact-icons i {
+    margin-right: 10px;
+    color: #161411;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: rgb(147, 255, 58);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.contact-icons a {
+    text-decoration: none;
+}
