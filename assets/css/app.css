@@ -1255,6 +1255,18 @@ h2.title {
     height: 0;
 }
 
+@media (max-width: 576px) {
+    .map-responsive {
+        padding-bottom: 50.25%;
+    }
+}
+
+@media (max-width: 376px) {
+    .map-responsive {
+        padding-bottom: 70.25%;
+    }
+}
+
 .map-responsive iframe {
     left: 0;
     top: 0;
